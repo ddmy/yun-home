@@ -1,0 +1,5 @@
+#myMap {
+  margin: 0 auto;
+  width: 98%;
+  height: 500px;
+}

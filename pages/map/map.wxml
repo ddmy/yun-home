@@ -1,0 +1,10 @@
+<view>
+  <text>查看当前位置: {{ msg }}</text>
+  <view>
+    <map id="myMap"
+    longitude="116.404008"
+    latitude="39.914209"
+    scale="20">
+    </map>
+  </view>
+</view>
