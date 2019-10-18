@@ -9,6 +9,9 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  onLoad: function() {
+    this.getUserInfo()
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

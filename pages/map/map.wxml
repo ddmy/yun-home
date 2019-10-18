@@ -2,9 +2,12 @@
   <text>查看当前位置: {{ msg }}</text>
   <view>
     <map id="myMap"
-    longitude="116.404008"
-    latitude="39.914209"
-    scale="20">
+    longitude="{{locations.longitude}}"
+    latitude="{{locations.latitude}}"
+    markers="{{markers}}"
+    show-location="true"
+    subkey="E6PBZ-TDDKK-M27JT-AOK5V-3PSYS-D3BP3"
+    scale="15">
     </map>
   </view>
 </view>
